@@ -1,0 +1,54 @@
+a {
+  color: #0cff00;
+  text-decoration: none;
+}
+
+p {
+  font-family: Muli;
+}
+
+li {
+  font-family: Muli;
+}
+
+h1 {
+  font-family: Muli;
+}
+
+@media screen and (max-width: 1364px) and (min-width: 1024px) {
+  body header .img-header a img {
+    width: 100%;
+    height: auto;
+  }
+  body header nav ul {
+    list-style-type: none;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: white;
+  }
+  body header nav ul li {
+    float: left;
+  }
+  body header nav ul li a {
+    display: block;
+    padding: 14px 16px;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    font-size: 8px;
+  }
+  body header nav ul li a:hover {
+    color: #0cff00;
+  }
+
+  footer {
+    text-align: center;
+  }
+}
